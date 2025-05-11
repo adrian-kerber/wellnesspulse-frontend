@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import { useContext } from "react";
 import { AuthContext } from "./contexts/authContextInstance";
 import { AuthProvider } from "./contexts/authContext";
-import Login from "./pages/login";
-import Dashboard from "./pages/dashboard";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 import Checklist from "./pages/Checklist";
 import Profile from "./pages/Profile";
 
